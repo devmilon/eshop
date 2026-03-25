@@ -27,14 +27,15 @@ SECRET_KEY = 'django-insecure-^yt-j_4xw^mibdlf#461ya$#euu#9#kc%l8*fve9!8fc^onh-0
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG = False
-
-ALLOWED_HOSTS = ['eshop-rsrj.onrender.com']
+ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://eshop-rsrj.onrender.com"
 ]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+USE_X_FORWARDED_HOST = True
 
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
