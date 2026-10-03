@@ -67,10 +67,10 @@ pip install -r requirements.txt
 Run database migrations:
 Run database migrations
 
-Create a superuser
+Create a superuser:
 python manage.py createsuperuser
 
-Start the development server
+Start the development server:
 python manage.py runserver
 
 
