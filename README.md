@@ -40,18 +40,6 @@ Make sure you have the following installed:
    git clone [https://github.com/devmilon/eshop.git](https://github.com/devmilon/eshop.git)
    cd eshop
 
-Repository Structure
-eshop/
-│── ashop/            # Django project settings & main configuration
-│── home/             # App for main views, home page, and core logic
-│── media/            # User-uploaded media files (product images, etc.)
-│── public/static/    # Static assets (CSS, JS, images)
-│── template/         # HTML template files
-│── db.sqlite3        # Local SQLite database
-│── manage.py         # Django management script
-│── requirements.txt  # Python dependency list
-└── runtime.txt       # Python runtime version for deployment (e.g., Heroku)
-
 Create and activate a virtual environment
 # On macOS/Linux
 python3 -m venv venv
